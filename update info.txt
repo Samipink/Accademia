@@ -1,0 +1,16 @@
+PS C:\Users\Samantha.Mulholland\samm_WebPage\samm_WebPage\public_html> git add -A
+>> git commit -m "First Changes"
+>> git push
+
+
+Whenever you edit the files in that folder, just run these from the site's folder:
+
+git add -A
+git commit -m "describe your change"
+git push
+
+GitHub Pages will automatically rebuild within a minute or two of the push. A couple of notes:
+
+The folder is now a git repo at C:\Users\Samantha.Mulholland\samm_WebPage\samm_WebPage\public_html — just edit the HTML/CSS/images there directly, then run the three commands above.
+Thumbs.db files are ignored (via .gitignore) so they won't get committed by accident.
+Want me to just do it for you next time? Tell me what changed and I can run the commit/push.
